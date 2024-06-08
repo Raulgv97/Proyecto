@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estiloproductos.css">
+    <script src="app.js" async></script>
+    <title>ZNEAKERS: Productos</title>
+    <link rel="icon" href="imagenes/icono.png">
+</head>
+<body>
+        <div class="header">
+            <header>
+                <nav>
+                  <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="producto.html">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="login.html">Log in</a></li>
+                    <li><a href="nosotros.html">Sobre Nosotros</a></li>
+                  </ul>
+                </nav>
+            </header>
+            <a href="index.html"><img class="centro" src="imagenes/Logo3.png" width="800" height="300"/></a>
+        </div> 
+    <section class="contenedor">
+        <!-- Contenedor de elementos -->
+        <div class="contenedor-items">
+            <div class="item">
+                <span class="titulo-item">Nike Airmax</span>
+                <img src="imagenes/airmax_2.jpg" alt="" class="img-item">
+                <span class="precio-item">120€</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Adidas Campus</span>
+                <img src="imagenes/campus_1.jpg" alt="" class="img-item">
+                <span class="precio-item">120€</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Adidas Gazelle</span>
+                <img src="imagenes/gazelle_1.jpg" alt="" class="img-item">
+                <span class="precio-item">120€</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Puma RSX</span>
+                <img src="imagenes/rsx_1.jpg" alt="" class="img-item">
+                <span class="precio-item">120€</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Puma Rebound</span>
+                <img src="imagenes/rebound_1.jpg" alt="" class="img-item">
+                <span class="precio-item">120€</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Adidas Forum</span>
+                <img src="imagenes/forum_2.jpg" alt="" class="img-item">
+                <span class="precio-item">120€</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Puma Caven</span>
+                <img src="imagenes/caven_3.png" alt="" class="img-item">
+                <span class="precio-item">120€</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Nike Jordan 1 Low</span>
+                <img src="imagenes/jordan1low_2.png" alt="" class="img-item">
+                <span class="precio-item">120€</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Vans Lowland</span>
+                <img src="imagenes/lowland.png" alt="" class="img-item">
+                <span class="precio-item">120€</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Vans Knu Skool</span>
+                <img src="imagenes/knu_skool.png" alt="" class="img-item">
+                <span class="precio-item">120€</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Puma RSX</span>
+                <img src="imagenes/rsx_3.jpg" alt="" class="img-item">
+                <span class="precio-item">120€</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Nike SB</span>
+                <img src="imagenes/sb_3.png" alt="" class="img-item">
+                <span class="precio-item">120€</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+        </div>
+        <!-- Carrito de Compras -->
+        <div class="carrito" id="carrito">
+            <div class="header-carrito">
+                <h2>Tu Carrito</h2>
+            </div>
+
+            <div class="carrito-items">
+                <!-- 
+                <div class="carrito-item">
+                    <img src="img/boxengasse.png" width="80px" alt="">
+                    <div class="carrito-item-detalles">
+                        <span class="carrito-item-titulo">Box Engasse</span>
+                        <div class="selector-cantidad">
+                            <i class="fa-solid fa-minus restar-cantidad"></i>
+                            <input type="text" value="1" class="carrito-item-cantidad" disabled>
+                            <i class="fa-solid fa-plus sumar-cantidad"></i>
+                        </div>
+                        <span class="carrito-item-precio">$15.000,00</span>
+                    </div>
+                   <span class="btn-eliminar">
+                        <i class="fa-solid fa-trash"></i>
+                   </span>
+                </div>
+                <div class="carrito-item">
+                    <img src="img/skinglam.png" width="80px" alt="">
+                    <div class="carrito-item-detalles">
+                        <span class="carrito-item-titulo">Skin Glam</span>
+                        <div class="selector-cantidad">
+                            <i class="fa-solid fa-minus restar-cantidad"></i>
+                            <input type="text" value="3" class="carrito-item-cantidad" disabled>
+                            <i class="fa-solid fa-plus sumar-cantidad"></i>
+                        </div>
+                        <span class="carrito-item-precio">$18.000,00</span>
+                    </div>
+                   <button class="btn-eliminar">
+                        <i class="fa-solid fa-trash"></i>
+                   </button>
+                </div>
+                 -->
+            </div>
+            <div class="carrito-total">
+                <div class="fila">
+                    <strong>Tu Total</strong>
+                    <span class="carrito-precio-total">
+                    </span>
+                </div>
+                <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i> </button>
+            </div>
+        </div>
+    </section>
+    <div class="footer">
+        <footer>
+          <ul class="list-inline">
+              <li class="list-inline-item"><a href="index.html">Página principal</a></li>
+              <li class="list-inline-item"><a href="nosotros.html">Sobre Nosotros</a></li>
+              <li class="list-inline-item"><a href="politica.html">Política de privacidad</a></li>
+          </ul>
+          <p class="copyright">ZNEAKERS © 2024</p>
+      </footer>
+      </div>
+</body>
+</html>
